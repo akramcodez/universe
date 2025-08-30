@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: universe300;
+  src: url(fonts/Lausanne-300.woff2);
+}
+
+@font-face {
+  font-family: universe500;
+  src: url(fonts/Lausanne-500.woff2);
+}
+
+body {
+  background-color: #000;
+  overflow-x: hidden;
+  font-family: universe300, sans-serif;
+}
