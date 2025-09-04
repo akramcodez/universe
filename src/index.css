@@ -49,3 +49,8 @@ body {
 .link:hover .movelink {
   opacity: 1;
 }
+
+.crossParent:hover .crossChild {
+  background-color: #c084fc;
+  transition: all ease 0.2s;
+}

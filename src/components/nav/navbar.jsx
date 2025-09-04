@@ -1,7 +1,9 @@
 import React, { useRef } from 'react';
+import { NavbarContext } from '../../context/NavContext';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
+  const { navOpen, setNavOpen } = React.useContext(NavbarContext);
   const navDivRef = useRef(null);
   return (
     <div className="flex fixed top-0 w-full items-start justify-between z-4">
@@ -36,6 +38,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
+        onClick={() => setNavOpen(!navOpen)}
         onMouseEnter={() => {
           navDivRef.current.style.height = '100%';
           setIsOpen(true);
@@ -44,11 +47,11 @@ const Navbar = () => {
           navDivRef.current.style.height = '0%';
           setIsOpen(false);
         }}
-        className="h-13 w-[15vw] relative bg-black"
+        className="h-10 w-[15vw] relative bg-black cursor-pointer"
       >
         <div
           ref={navDivRef}
-          className={`bg-white transition-all absolute top-0 h-0 w-full flex flex-col items-end`}
+          className={`bg-white transition-all duration-300 ease-in-out absolute top-0 h-0 w-full flex flex-col items-end overflow-hidden`}
         ></div>
         <div className="relative flex flex-col items-end p-4 gap-1.5">
           <div
@@ -56,9 +59,6 @@ const Navbar = () => {
           ></div>
           <div
             className={`${isOpen ? 'bg-black' : 'bg-white'} w-[20%] h-[2px]`}
-          ></div>
-          <div
-            className={`${isOpen ? 'bg-black' : 'bg-white'} w-[10%] h-[2px]`}
           ></div>
         </div>
       </div>

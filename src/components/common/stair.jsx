@@ -42,7 +42,7 @@ const Stair = (app) => {
   return (
     <div>
       <div ref={stairParentRef} className="h-screen w-full fixed z-10 top-0">
-        <div className="h-full w-full flex fixed z-10 top-0">
+        <div className="h-full w-full flex">
           <div className="stair h-full w-1/5 bg-black"></div>
           <div className="stair h-full w-1/5 bg-black"></div>
           <div className="stair h-full w-1/5 bg-black"></div>

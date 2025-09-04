@@ -8,13 +8,13 @@ import ScreenNav from './components/nav/ScreenNav';
 const App = () => {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <ScreenNav />
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/travelers" element={<Travelers />} />
-      </Routes> */}
+      </Routes>
     </div>
   );
 };
