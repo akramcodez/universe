@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import Projects from './pages/Projects';
+import Wonders from './pages/wonders';
 import Travelers from './pages/Travelers';
 import Navbar from './components/nav/navbar';
 import ScreenNav from './components/nav/ScreenNav';
@@ -12,7 +12,7 @@ const App = () => {
       <ScreenNav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/wonders" element={<Wonders />} />
         <Route path="/travelers" element={<Travelers />} />
       </Routes>
     </div>

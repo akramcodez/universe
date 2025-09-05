@@ -51,7 +51,7 @@ const Navbar = () => {
       >
         <div
           ref={navDivRef}
-          className={`bg-white transition-all duration-300 ease-in-out absolute top-0 h-0 w-full flex flex-col items-end overflow-hidden`}
+          className={`bg-[#C084FC] transition-all duration-300 ease-in-out absolute top-0 h-0 w-full flex flex-col items-end overflow-hidden`}
         ></div>
         <div className="relative flex flex-col items-end p-4 gap-1.5">
           <div
