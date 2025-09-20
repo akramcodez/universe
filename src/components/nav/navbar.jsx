@@ -47,7 +47,7 @@ const Navbar = () => {
           navDivRef.current.style.height = '0%';
           setIsOpen(false);
         }}
-        className="h-10 w-[15vw] relative bg-black cursor-pointer"
+        className="h-10 w-46 md:w-42 lg:w-[15vw] relative bg-black cursor-pointer"
       >
         <div
           ref={navDivRef}

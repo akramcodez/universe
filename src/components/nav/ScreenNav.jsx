@@ -146,21 +146,27 @@ const ScreenNav = () => {
             <div className="h-28 w-[2px] bg-[#fff] absolute rotate-45 origin-top right-0 crossChild"></div>
           </div>
         </div>
-        <div className="pt-20">
+        <div className="pt-40 md:pt-30 lg:pt-25 xl:pt-20">
           <div className="link origin-top relative border-t-[1px] cursor-pointer">
-            <h1 className="font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+            <h1
+              className="font-[universe500] text-center uppercase pt-4"
+              style={{
+                fontSize: 'clamp(70px, 7.5vw, 120px)',
+                lineHeight: 'clamp(63px, 6.5vw, 110px)',
+              }}
+            >
               Projects
             </h1>
             <div className="movelink absolute top-0 flex gap-4 bg-[#C084FC] text-black">
               <div className="moveX flex items-center gap-4">
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img
                   className="h-20 w-56 object-cover shrink-0 rounded-full"
                   src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg"
                 ></img>
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img
@@ -169,14 +175,14 @@ const ScreenNav = () => {
                 ></img>
               </div>
               <div className="moveX flex items-center gap-4">
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img
                   className="h-20 w-56 object-cover shrink-0 rounded-full"
                   src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg"
                 ></img>
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img
@@ -187,19 +193,25 @@ const ScreenNav = () => {
             </div>
           </div>
           <div className="link origin-top relative border-t-[1px] cursor-pointer">
-            <h1 className="font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+            <h1
+              className="font-[universe500] text-center uppercase pt-4"
+              style={{
+                fontSize: 'clamp(70px, 7.5vw, 120px)',
+                lineHeight: 'clamp(63px, 6.5vw, 110px)',
+              }}
+            >
               Projects
             </h1>
             <div className="movelink absolute top-0 flex gap-4 bg-[#C084FC] text-black">
               <div className="moveX flex items-center gap-4">
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img
                   className="h-20 w-56 object-cover shrink-0 rounded-full"
                   src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg"
                 ></img>
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img
@@ -208,14 +220,14 @@ const ScreenNav = () => {
                 ></img>
               </div>
               <div className="moveX flex items-center gap-4">
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img
                   className="h-20 w-56 object-cover shrink-0 rounded-full"
                   src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg"
                 ></img>
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img
@@ -226,19 +238,25 @@ const ScreenNav = () => {
             </div>
           </div>
           <div className="link origin-top relative border-t-[1px] cursor-pointer">
-            <h1 className="font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+            <h1
+              className="font-[universe500] text-center uppercase pt-4"
+              style={{
+                fontSize: 'clamp(70px, 7.5vw, 120px)',
+                lineHeight: 'clamp(63px, 6.5vw, 110px)',
+              }}
+            >
               Projects
             </h1>
             <div className="movelink absolute top-0 flex gap-4 bg-[#C084FC] text-black">
               <div className="moveX flex items-center gap-4">
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img
                   className="h-20 w-56 object-cover shrink-0 rounded-full"
                   src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg"
                 ></img>
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img
@@ -247,14 +265,14 @@ const ScreenNav = () => {
                 ></img>
               </div>
               <div className="moveX flex items-center gap-4">
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img
                   className="h-20 w-56 object-cover shrink-0 rounded-full"
                   src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg"
                 ></img>
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img
@@ -265,19 +283,25 @@ const ScreenNav = () => {
             </div>
           </div>
           <div className="link origin-top relative border-t-[1px] border-b-[1px] cursor-pointer">
-            <h1 className="font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+            <h1
+              className="font-[universe500] text-center uppercase pt-4"
+              style={{
+                fontSize: 'clamp(70px, 7.5vw, 120px)',
+                lineHeight: 'clamp(63px, 6.5vw, 110px)',
+              }}
+            >
               Projects
             </h1>
             <div className="movelink absolute top-0 flex gap-4 bg-[#C084FC] text-black">
               <div className="moveX flex items-center gap-4">
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img
                   className="h-20 w-56 object-cover shrink-0 rounded-full"
                   src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg"
                 ></img>
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img
@@ -286,14 +310,14 @@ const ScreenNav = () => {
                 ></img>
               </div>
               <div className="moveX flex items-center gap-4">
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img
                   className="h-20 w-56 object-cover shrink-0 rounded-full"
                   src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg"
                 ></img>
-                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-4">
+                <h2 className="whitespace-nowrap font-[universe500] text-[7.5vw] text-center uppercase leading-[6.5vw] pt-2 sm:pt-4">
                   Pour Tout Voir
                 </h2>
                 <img

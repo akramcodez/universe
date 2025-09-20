@@ -7,7 +7,7 @@ import ScreenNav from './components/nav/ScreenNav';
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar />
       <ScreenNav />
       <Routes>
